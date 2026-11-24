@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文解读公众号版本"
+  short_description: "参考个人原创分析风格将论文写成公众号图文长文并交付Word"
+  default_prompt: "请使用 $paper-reading-wechat 将这篇论文写成适合公众号发布的解读，参考我的原创风格并交付Word。"

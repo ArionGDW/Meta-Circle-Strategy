@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文解读小红书版本"
+  short_description: "将论文转成机制图解与洞察收尾的小红书图文并同步发布文案"
+  default_prompt: "请使用 $paper-reading-xiaohongshu 解读这篇论文，围绕我指定的切入点制作小红书图文及发布文案。"
