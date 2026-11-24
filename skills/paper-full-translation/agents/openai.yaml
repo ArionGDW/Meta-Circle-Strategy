@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文完整翻译"
+  short_description: "全文逐段中英对照，含附录图表、批注阅读器、快速阅读与教程导读"
+  default_prompt: "请使用 $paper-full-translation，将这篇论文制作成完整中英对照阅读包。"
