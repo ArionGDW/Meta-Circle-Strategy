@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文简要翻译"
+  short_description: "完整翻译摘要、序言和总结，配逐段中英对照、批注阅读器及教学导读"
+  default_prompt: "请使用 $paper-brief-translation，完整翻译这篇论文的摘要、序言和总结，并制作导读阅读包。"
