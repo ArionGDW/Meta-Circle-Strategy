@@ -20,6 +20,14 @@
 
 解读任务可以直接使用论文或已有译文。只要求要点时提供提纲；要求完整内容时生成对应发布材料。研究关联按主题需要加入。
 
+## 事件推广方案技能
+
+| 技能 | 调用名称 | 内容 |
+| --- | --- | --- |
+| [事件推广方案制作Skill](skills/event-promotion-plan/SKILL.md) | `$event-promotion-plan` | 梳理核心内容、受众、渠道分工、传播指标与发布时间，按需制作可编辑 PPT 和执行文档，并跟进复盘。 |
+
+包含[两页成果发布方案示例](skills/event-promotion-plan/references/two-slide-launch-example.md)，说明原始材料核对、两页 PPT 的结构和修改要点，供团队按具体事件复用。
+
 ## 安装
 
 将 `skills/` 下需要的技能文件夹复制到个人 Codex 技能目录 `~/.codex/skills/`，保留各文件夹内的 `SKILL.md`、`agents/` 和 `references/`。
@@ -52,6 +60,12 @@
 使用 $paper-reading-wechat 将这篇论文写成公众号解读：[文件或链接]，参考我的原创文章风格
 ```
 
+制作事件推广方案时，输入：
+
+```text
+使用 $event-promotion-plan 根据这些研究材料制作两页成果发布方案，面向全球 AI 研究员，明确内容、渠道、预期结果和关键时间线：[材料]
+```
+
 ## 目录
 
 ```text
@@ -68,8 +82,12 @@ skills/
 │   ├── SKILL.md
 │   ├── agents/openai.yaml
 │   └── references/research-checks.md
-└── paper-reading-wechat/
+├── paper-reading-wechat/
+│   ├── SKILL.md
+│   ├── agents/openai.yaml
+│   └── references/research-checks.md
+└── event-promotion-plan/
     ├── SKILL.md
     ├── agents/openai.yaml
-    └── references/research-checks.md
+    └── references/two-slide-launch-example.md
 ```
